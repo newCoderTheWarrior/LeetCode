@@ -51,3 +51,5 @@
 /cmake-build-debug/.cmake/api/v1/query/toolchains-v1
 /cmake-build-debug/.cmake/api/v1/reply/toolchains-v1-2af3e835d3af2fb233b0.json
 /.idea/workspace.xml
+/cmake-build-debug/
+/.idea/encodings.xml
