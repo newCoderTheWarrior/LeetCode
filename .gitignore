@@ -30,3 +30,13 @@
 *.exe
 *.out
 *.app
+/LeetCode.sln
+/LeetCode/LeetCode.vcxproj.user
+/LeetCode/LeetCode.vcxproj.filters
+/LeetCode/LeetCode.vcxproj
+/.vs/LeetCode/v17/Browse.VC.opendb
+/.vs/LeetCode/v17/Browse.VC.db-wal
+/.vs/LeetCode/v17/Browse.VC.db-shm
+/.vs/LeetCode/v17/Browse.VC.db
+/.vs/LeetCode/FileContentIndex/read.lock
+/.vs/LeetCode/FileContentIndex/0507203f-e087-4db2-ac59-8cdf816dd27c.vsidx
