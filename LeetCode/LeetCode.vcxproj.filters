@@ -13,5 +13,28 @@
       <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
       <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
     </Filter>
+    <Filter Include="Resource Files\code daily">
+      <UniqueIdentifier>{beb4780f-fc6e-44da-ae18-182009feace0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource Files\JZOF">
+      <UniqueIdentifier>{2aeaa053-50b5-4741-9c8f-6dab908529b9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource Files\LC">
+      <UniqueIdentifier>{765f2962-ea18-4a0f-889d-85d9f0d9f527}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="LC_445_Add Two Numbers II.cpp">
+      <Filter>Resource Files\LC</Filter>
+    </ClCompile>
+    <ClCompile Include="..\快速排序.cpp">
+      <Filter>Resource Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\模板.cpp">
+      <Filter>Resource Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\模板元编程.cpp">
+      <Filter>Resource Files</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
