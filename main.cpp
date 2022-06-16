@@ -3,7 +3,7 @@
 //
 #include <bits/stdc++.h>
 #include "JZOF/JZ_2_2_AddBinary.h"
-#include "JZOF/LC338_countBits.h"
+#include "code daily/LC_338_CountBits.h"
 #include "code daily/LC_498_FindDiagonalOrder.h"
 using namespace std;
 
