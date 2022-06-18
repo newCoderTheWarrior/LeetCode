@@ -10,7 +10,7 @@ using namespace std;
 class CountBits {
 public:
     vector<int> countBits(int n) {
-
+        return {};
     }
 };
 

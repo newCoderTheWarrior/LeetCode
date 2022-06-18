@@ -6,7 +6,7 @@
 #define LEETCODE_LC_498_FINDDIAGONALORDER_H
 #include <bits/stdc++.h>
 using namespace std;
-
+static int testvar = 0;
 class FindDiagonalOrder {
     constexpr static int directions[2][2] = {{-1,1},{1,-1}};
 public:

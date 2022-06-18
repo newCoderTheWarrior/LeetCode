@@ -7,6 +7,20 @@
 #include "code daily/LC_498_FindDiagonalOrder.h"
 using namespace std;
 
+class A{
+public:
+    void func(){
+        cout<<"A"<<endl;
+    }
+};
+
+class B : public A{
+public:
+    void func(){
+        return;
+    }
+};
+
 int main(){
     //AddBinary a;
     //cout << a.addBinary("0","0");
@@ -14,5 +28,10 @@ int main(){
 //    c.countBits(10);
 //    FindDiagonalOrder f;
 //    f.findDiagonalOrder()
+    A* a = new B;
+    a->func();
+    testvar = 1;
+    cout<<testvar<<endl;
+    thread_local extern int c;
     return 0;
 }
