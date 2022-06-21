@@ -75,7 +75,23 @@ public:
     }
 };
 
+class A{
+public:
+    virtual void func(){
+        cout << "A" << endl;
+    }
+};
+
+class B : public A {
+public:
+    virtual void func() override {
+        cout << "B" << endl;
+    }
+};
+
 int main(){
+    A* p = new B;
+    p->func();
     string input = "[3,3,3]";
     auto head = buildListNode<Node>(input);
     head.second->next = head.first;
