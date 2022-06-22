@@ -21,17 +21,27 @@ public:
     }
 };
 
-int main(){
-    //AddBinary a;
-    //cout << a.addBinary("0","0");
-//    CountBits c;
-//    c.countBits(10);
-//    FindDiagonalOrder f;
-//    f.findDiagonalOrder()
-    A* a = new B;
-    a->func();
-    testvar = 1;
-    cout<<testvar<<endl;
-    thread_local extern int c;
-    return 0;
+class Test{
+public:
+    vector<int> v;
+    Test(initializer_list<int> l){
+        v = std::move(vector(l.begin(),l.end()));
+    }
+};
+bool func(int num){return true;}
+
+
+auto func(auto a, auto b, auto sum) {
+    for(auto it = a.begin(); it != a.end(); ++it) {
+        if(b.count([&](auto r){
+            return (*it) % 2 == 0 ?  (*it)/2 : (*it)/2 + 1;
+        }(*it))) {
+            for(const auto& [key,val] : b[*it]) {
+                sum += [](auto num){
+                    return func(num);
+                }(val) ? key : -1;
+            }
+        }
+    }
+    return sum;
 }
