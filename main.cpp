@@ -45,3 +45,12 @@ auto func(auto a, auto b, auto sum) {
     }
     return sum;
 }
+
+/*
+["MovingAverage","next","next","next","next","next","next","next","next","next","next"]
+[[5],[12009],[1965],[-940],[-8516],[-16446],[7870],[25545],[-21028],[18430],[-23464]]
+*/
+
+int main(){
+
+}

@@ -9,3 +9,4 @@ add_executable(main main.cpp JZOF/JZ_2_2_AddBinary.h "code daily/LC_338_CountBit
 add_executable(daily20220618 "code daily/JZOF_2_29_orderedCycleLinklist.cpp")
 add_executable(daily20220622 "code daily/LC_513_findBottomLeftValue.cpp")
 add_executable(daily20220623 "code daily/LC_30_findSubstring.cpp")
+add_executable(daily20220716 "code daily/JZOF_2_041_MovingAverage.cpp")
