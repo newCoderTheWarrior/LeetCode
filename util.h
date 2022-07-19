@@ -1,6 +1,3 @@
-//
-// Created by WuFenghong on 2022/6/18.
-//
 
 #ifndef LEETCODE_UTIL_H
 #define LEETCODE_UTIL_H
