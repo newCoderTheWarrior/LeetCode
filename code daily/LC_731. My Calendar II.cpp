@@ -34,6 +34,9 @@ public:
  */
 
 int main(){
+    if(1 and 2) {
+
+    }
     MyCalendarTwo m;
     m.book(10,20);
     m.book(50,60);
