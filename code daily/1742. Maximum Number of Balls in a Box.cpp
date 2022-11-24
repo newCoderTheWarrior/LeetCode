@@ -13,12 +13,12 @@ public:
     }
 
     int countBalls(int lowLimit, int highLimit) {
-        int maximun = INT_MIN;
+        int maximum = INT_MIN;
         unordered_map<int,int> dict;
         for(int i = lowLimit; i <= highLimit; ++i) {
             int num = calculate(i);
             dict[num]++;
-            maximun = max(maximun,dict[num]);
+            maximum = max(maximum,dict[num]);
         }
         return maximun;
     }
