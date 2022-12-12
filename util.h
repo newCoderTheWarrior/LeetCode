@@ -23,7 +23,7 @@ struct ListNode {
 };
 
 template<typename T>
-pair<T*,T*> buildListNode(string input) {
+auto  buildListNode(string input) -> pair<T*,T*> {
     input = input.substr(1);
     input.pop_back();
     string str;
