@@ -16,3 +16,4 @@ add_executable(daily20221124 "code daily/795. Number of Subarrays with Bounded M
 add_executable(daily20221125 "code daily/809. Expressive Words.cpp")
 add_executable(LC1004 "LC/1004. Max Consecutive Ones III.cpp")
 add_executable(LC1221 "code daily/1753. Maximum Score From Removing Stones.cpp")
+add_executable(weekly20221225 "contest weekly/2022_12_25_325.cpp")
