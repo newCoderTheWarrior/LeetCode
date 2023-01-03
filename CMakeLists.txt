@@ -18,3 +18,5 @@ add_executable(daily20230101 "code daily/2351. First Letter to Appear Twice.cpp"
 add_executable(LC1004 "LC/1004. Max Consecutive Ones III.cpp")
 add_executable(LC1221 "code daily/1753. Maximum Score From Removing Stones.cpp")
 add_executable(weekly20221225 "contest weekly/2022_12_25_325.cpp")
+add_executable(daily20230103 "code daily/2042. Check if Numbers Are Ascending in a Sentence.cpp")
+add_executable(test "code daily/test.cpp")
