@@ -22,3 +22,4 @@ add_executable(daily20230103 "code daily/2042. Check if Numbers Are Ascending in
 add_executable(test "code daily/test.cpp")
 add_executable(weekly20230108 "contest weekly/2023_01_08_327.cpp")
 add_executable(LC_43 "LC/43. Multiply Strings.cpp")
+add_executable(LC_146 "LC/146. LRU Cache.cpp")
