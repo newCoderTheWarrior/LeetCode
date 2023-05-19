@@ -5,6 +5,8 @@
 #include "JZOF/JZ_2_2_AddBinary.h"
 #include "code daily/LC_338_CountBits.h"
 #include "code daily/LC_498_FindDiagonalOrder.h"
+#include "util.h"
+
 using namespace std;
 
 class A{
@@ -52,5 +54,21 @@ auto func(auto a, auto b, auto sum) {
 */
 
 int main(){
+    ThreadPool pool(4); // 创建一个有 4 个线程的线程池
+    std::vector<std::future<int>> results; // 存储任务的 std::future 对象
 
+    for (int i = 0; i < 8; ++i) {
+        results.emplace_back(pool.enqueue([i] { // 将任务添加到线程池
+            std::cout << "Task " << i << " start" << std::endl;
+            std::this_thread::sleep_for(std::chrono::seconds(1)); // 模拟任务计算
+            std::cout << "Task " << i << " end" << std::endl;
+            return i * i; // 返回计算结果
+        }));
+    }
+
+    for (auto && result : results)
+        std::cout << result.get() << ' ';
+    std::cout << std::endl;
+
+    return 0;
 }
